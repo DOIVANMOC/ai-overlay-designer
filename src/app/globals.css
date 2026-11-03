@@ -1,26 +1,113 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: #030e1e;
+  --foreground: #f0f9ff;
+  --ocean-primary: #0077b6;
+  --ocean-accent: #00b4d8;
+  --ocean-cyan: #48cae4;
+  --ocean-deep: #021226;
+  --ocean-card: #071f3d;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #030e1e;
+  color: #f0f9ff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Deep Ocean Radial Glow Atmosphere */
+.ocean-ambient-bg {
+  background-color: #020c1b;
+  background-image: 
+    radial-gradient(ellipse 85% 60% at 50% -15%, rgba(0, 180, 216, 0.22), transparent 70%),
+    radial-gradient(circle at 10% 40%, rgba(2, 62, 138, 0.3), transparent 50%),
+    radial-gradient(circle at 90% 70%, rgba(0, 119, 182, 0.2), transparent 55%),
+    linear-gradient(180deg, #031124 0%, #020c1b 100%);
+  background-attachment: fixed;
+}
+
+/* Ocean Glass Card */
+.ocean-card {
+  background: rgba(7, 31, 61, 0.75);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(56, 189, 248, 0.18);
+  box-shadow: 0 10px 30px -5px rgba(0, 15, 38, 0.6), 0 0 15px rgba(0, 180, 216, 0.05);
+}
+
+.ocean-card-hover {
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.ocean-card-hover:hover {
+  background: rgba(10, 42, 82, 0.85);
+  border-color: rgba(56, 189, 248, 0.4);
+  box-shadow: 0 15px 35px -5px rgba(0, 20, 50, 0.75), 0 0 25px rgba(0, 180, 216, 0.15);
+}
+
+/* Ocean Blue (Xanh Đại Dương) Canvas Viewport Pattern */
+.bg-ocean-blue {
+  background: radial-gradient(ellipse at 50% 35%, #0096c7 0%, #0077b6 30%, #023e8a 65%, #03045e 85%, #001233 100%);
+  background-size: 100% 100%;
+}
+
+.bg-ocean-deep {
+  background: linear-gradient(135deg, #00122e 0%, #022047 35%, #03396c 70%, #005b96 100%);
+}
+
+/* Checkerboard patterns */
+.checkerboard-pattern {
+  background-color: #0c2b52;
+  background-image: 
+    linear-gradient(45deg, #081e3a 25%, transparent 25%), 
+    linear-gradient(-45deg, #081e3a 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, #081e3a 75%), 
+    linear-gradient(-45deg, transparent 75%, #081e3a 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+}
+
+.checkerboard-dark {
+  background-color: #030a14;
+  background-image: 
+    linear-gradient(45deg, #08162b 25%, transparent 25%), 
+    linear-gradient(-45deg, #08162b 25%, transparent 25%), 
+    linear-gradient(45deg, transparent 75%, #08162b 75%), 
+    linear-gradient(-45deg, transparent 75%, #08162b 75%);
+  background-size: 16px 16px;
+  background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+}
+
+/* Ocean neon glowing button */
+.btn-ocean-primary {
+  background: linear-gradient(135deg, #00b4d8 0%, #0077b6 60%, #023e8a 100%);
+  color: #ffffff;
+  box-shadow: 0 0 20px rgba(0, 180, 216, 0.45), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  transition: all 0.2s ease;
+}
+.btn-ocean-primary:hover:not(:disabled) {
+  background: linear-gradient(135deg, #48cae4 0%, #0096c7 60%, #0077b6 100%);
+  box-shadow: 0 0 28px rgba(0, 180, 216, 0.7), inset 0 1px 0 rgba(255, 255, 255, 0.4);
+  transform: translateY(-1px);
+}
+
+/* Custom ocean scrollbar */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020c1b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #07386d;
+  border-radius: 9999px;
+  border: 1px solid rgba(56, 189, 248, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #0096c7;
 }

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "cyberpunk-neon",
+    "name": "Cyberpunk Neon HUD",
+    "theme": "Cyberpunk / Neon Futuristic",
+    "aesthetic": "High-tech luminescent cyan/magenta borders, sharp geometric cuts, neon glow falloff",
+    "palette": [
+      {
+        "hex": "#00e5ff",
+        "percentage": 40
+      },
+      {
+        "hex": "#ff007f",
+        "percentage": 30
+      },
+      {
+        "hex": "#0a0a14",
+        "percentage": 30
+      }
+    ],
+    "dominantGlowColor": "#00e5ff",
+    "glowIntensity": 55,
+    "shadowIntensity": 40,
+    "metallicBoost": 20,
+    "neonBoost": 35,
+    "edgeFeather": 2,
+    "createdAt": "2026-11-03T05:31:56.999Z"
+  },
+  {
+    "id": "mecha-gold",
+    "name": "Mecha Gold Luxury Armor",
+    "theme": "Mecha Gold / Luxury Armor",
+    "aesthetic": "Chiseled golden metallic bevels, luxury armor plating, warm ambient illumination",
+    "palette": [
+      {
+        "hex": "#ffd700",
+        "percentage": 45
+      },
+      {
+        "hex": "#deab50",
+        "percentage": 30
+      },
+      {
+        "hex": "#1a140a",
+        "percentage": 25
+      }
+    ],
+    "dominantGlowColor": "#ffd700",
+    "glowIntensity": 45,
+    "shadowIntensity": 50,
+    "metallicBoost": 40,
+    "neonBoost": 15,
+    "edgeFeather": 2,
+    "createdAt": "2026-11-03T05:31:56.999Z"
+  },
+  {
+    "id": "minimalist-esports",
+    "name": "Minimalist Esports Stealth",
+    "theme": "Dark Minimalist / Stealth Tech",
+    "aesthetic": "Subtle carbon fiber textures, discreet wireframe borders, clean functional hierarchy",
+    "palette": [
+      {
+        "hex": "#18181b",
+        "percentage": 50
+      },
+      {
+        "hex": "#27272a",
+        "percentage": 30
+      },
+      {
+        "hex": "#ffffff",
+        "percentage": 20
+      }
+    ],
+    "dominantGlowColor": "#a1a1aa",
+    "glowIntensity": 20,
+    "shadowIntensity": 50,
+    "metallicBoost": 15,
+    "neonBoost": 5,
+    "edgeFeather": 1,
+    "createdAt": "2026-11-03T05:31:56.999Z"
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "id": "hist_1793684403558",
+    "title": "Mecha Ocean Test",
+    "theme": "Custom AI Design",
+    "originalUrl": "/samples/sample_mecha_chatbox.png",
+    "outputUrl": "/outputs/overlay_1793684384269_3di6ds.png",
+    "dimensions": {
+      "width": 1100,
+      "height": 300
+    },
+    "transparencyPercentage": 0,
+    "qualityScore": 78,
+    "palette": [
+      "#8b6f3c",
+      "#f9da66",
+      "#0a487d",
+      "#040200",
+      "#012362",
+      "#077fbb"
+    ],
+    "createdAt": "2026-11-03T05:40:03.559Z",
+    "options": {
+      "glowIntensity": 40,
+      "glowColor": "#ffd700",
+      "shadowIntensity": 40,
+      "neonBoost": 15,
+      "metallicBoost": 15,
+      "edgeFeather": 2,
+      "resolution": "original",
+      "hollowCenter": false
+    }
+  },
+  {
+    "id": "hist_1793683932059",
+    "title": "Mecha Gold Test Overlay",
+    "theme": "Custom AI Design",
+    "originalUrl": "/samples/sample_mecha_chatbox.png",
+    "outputUrl": "/outputs/overlay_1793683919402_5nblwr.png",
+    "dimensions": {
+      "width": 1100,
+      "height": 300
+    },
+    "transparencyPercentage": 51.65,
+    "qualityScore": 98,
+    "palette": [
+      "#805a1f",
+      "#f7c647",
+      "#010000",
+      "#fef17b",
+      "#b18813",
+      "#3c2106"
+    ],
+    "createdAt": "2026-11-03T05:32:12.059Z",
+    "options": {
+      "glowIntensity": 40,
+      "glowColor": "#ffd700",
+      "shadowIntensity": 40,
+      "neonBoost": 15,
+      "metallicBoost": 20,
+      "edgeFeather": 2,
+      "resolution": "original",
+      "hollowCenter": false
+    }
+  }
+]

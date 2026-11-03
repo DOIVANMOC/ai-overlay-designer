@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# user uploads and outputs
+/public/uploads/*
+!/public/uploads/.gitkeep
+/public/outputs/*
+!/public/outputs/.gitkeep
+public/test_out.png
+
+# server storage configs
+/storage/server_config.json
